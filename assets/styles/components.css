@@ -67,9 +67,10 @@
 }
 
 .dialog {
-  position: relative;
+  /* position: relative; */
+  display: none;
   form {
-    position: absolute;
+    /* position: absolute; */
     width: fit-content;
     top: 1rem;
     right: 1rem;
@@ -168,7 +169,7 @@
 .main-navigation {
   display: flex;
   gap: var(--m);
-
+  align-items: center;
   .logo {
     display: block;
     flex-grow: 2;
@@ -182,8 +183,8 @@
 .main-menu-trigger {
   border: none;
   margin-right: var(--xs);
-  background-color: var(--color-white);
-  color: var(--color-white);
+  /* background-color: var(--color-white); */
+  /* color: var(--color-white); */
   cursor: pointer;
 
   span {
@@ -192,5 +193,32 @@
     height: var(--eighth);
     margin-bottom: var(--quarter);
     background-color: var(--color-darkest);
+  }
+}
+
+.hambuger-menu {
+  input {
+    display: none;
+    &:checked + label + ul {
+      display: block;
+      transform: translateX(0px);
+    }
+  }
+  label {
+    cursor: pointer;
+  }
+  ul {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s;
+    transform: translateX(-300px);
+    background-color: gray;
+    width: 300px;
+    position: absolute;
+    padding: 1rem;
+    height: 100vh;
+    left: 0;
+    top: 0;
   }
 }
