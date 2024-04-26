@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProjectSurvival4All – Survival-Tipps für die Projektarbeit</title>
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="/" class="logo">
+          <h1>
+            <img
+              src="./assets/images/projectsurvival-logo.svg"
+              alt="ProjectSurvival4All Logo"
+            />
+          </h1>
+        </a>
+        <div>
+          <form class="keyword-search for-large-viewports">
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="Suchen"
+            />
+            <button type="submit">
+              <span class="icon icon--l">search</span>
+            </button>
+          </form>
+        </div>
+        <button class="main-menu-trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <form class="keyword-search for-small-viewports">
+          <input type="search" id="search" name="search" placeholder="Suchen" />
+          <button type="submit">
+            <span class="icon icon--l">search</span>
+          </button>
+        </form>
+      </div>
+
+      <dialog open id="welcome" class="hero dialog">
+        <h2>Willkommen</h2>
+        <p>
+          In der Bearbeitung von Projekten ist es von entscheidender Bedeutung,
+          nicht nur theoretisches Wissen zu besitzen, sondern auch
+          praxiserprobte Methoden, bewährte Tricks und den souveränen Umgang mit
+          müglichen Stolpersteinen zu beherrschen. Hier setzt
+          ProjectSurvival4All an, eine innovative Plattform in Zusammenarbeit
+          mit der TH Köln, die entwickelt wurde, um dich und dein Team bei
+          Projektarbeiten und im Studium optimal zu unterstützen. Hier erwarten
+          dich erstklassige Inhalte von erfahrenen Dozenten, die dir Best
+          Practices und kuratiertes Wissen auf eine interessante und effiziente
+          Weise vermitteln. Schau einfach mal vorbei und entdecke, wie
+          ProjectSurvival4All deine Projekterfahrung auf das nächste Level heben
+          kann.
+        </p>
+        <a href="./pages/about/about-the-project.html">Mehr erfahren</a>
+        <form method="dialog">
+          <button class="material-symbols-outlined">close</button>
+          <!-- <span class="material-symbols-outlined"> close </span> -->
+        </form>
+      </dialog>
+
+      <section>
+        <h2>Favoriten</h2>
+        <ul class="item-list is-grid">
+          <li class="has-icon icon--document">
+            <p>Wie baue ich eine Präsentation auf?</p>
+            <address>Monika Engelen</address>
+          </li>
+          <li class="has-icon icon--video">
+            <p>Wie erstelle ich eine Agenda?</p>
+            <address>Raphaela Groten</address>
+          </li>
+          <li class="has-icon icon--video">
+            <p>Wie priorisiere ich (ein Backlog)?</p>
+            <address>Raphaela Groten</address>
+          </li>
+          <li class="has-icon icon--video">
+            <p>Wie halte ich einen Pitch?</p>
+            <address>Monika Engelen</address>
+          </li>
+          <li class="has-icon icon--document">
+            <p>Wie baue ich eine Präsentation auf?</p>
+            <address>Raphaela Groten</address>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Von deinem ILU Schreibtisch</h2>
+        <ul class="item-list is-inline">
+          <li><span class="icon icon--l">folder</span>Datenbanken 1</li>
+          <li>
+            <span class="icon icon--l">folder</span>Kommunikationstechnik und
+            Netze
+          </li>
+          <li>
+            <span class="icon icon--l">folder</span>Paradigmen der
+            Programmierung
+          </li>
+          <li>
+            <span class="icon icon--l">folder</span>Audiovisuelles Medienprojekt
+          </li>
+          <li><span class="icon icon--l">folder</span>Grundlagen des Web</li>
+          <li><span class="icon icon--l">folder</span>Screendesign</li>
+          <li>
+            <span class="icon icon--l">folder</span>Mensch-Computer Interaktion
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Verlauf</h2>
+        <ul class="card-grid">
+          <li>
+            <figure>
+              <img
+                src="./images/praesentation-aufbau.jpg"
+                alt="Präsentation Aufbau"
+              />
+              <figcaption>
+                <h3>Wie baue ich eine Präsentation auf?</h3>
+                <address>Monika Engelen</address>
+                <ul class="tag-list">
+                  <li>Präsentation</li>
+                  <li>PPT</li>
+                  <li>Vortrag</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="./images/idea.webp" alt="Idee verproben" />
+              <figcaption>
+                <h3>
+                  Wie validiere ich meine Geschäftsidee, bevor ich ein Startup
+                  gründe?
+                </h3>
+                <address>Max Mustermann</address>
+                <div class="tag-list-wrapper">
+                  <ul class="tag-list">
+                    <li>Minimum Viable Product (MVP)</li>
+                    <li>Pivot</li>
+                    <li>Validated Learning</li>
+                    <li>Build-Measure-Learn</li>
+                    <li>Customer Development</li>
+                    <li>Lean Canvas</li>
+                    <li>Continuous Deployment</li>
+                    <li>A/B Testing</li>
+                    <li>Lean Metrics</li>
+                    <li>Bootstrapping</li>
+                  </ul>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="./images/stressed.jpg" alt="Stress im Studium" />
+              <figcaption>
+                <h3>Wie bewältige ich Stress?</h3>
+                <address>Max Mustermann</address>
+
+                <div class="tag-list-wrapper">
+                  <ul class="tag-list">
+                    <li>Stress</li>
+                    <li>Bewältigung</li>
+                    <li>Gesundheit</li>
+                  </ul>
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img
+                src="./images/rednerin-praesentation.jpg"
+                alt="Techniken zur Verbesserung der Teamarbeit"
+              />
+              <figcaption>
+                <h3>
+                  Welche Techniken verbessern die Zusammenarbeit in einem Team?
+                </h3>
+                <address>Monika Engelen</address>
+                <ul class="tag-list">
+                  <li>Überzeugen</li>
+                  <li>Gruppenarbeit</li>
+                  <li>Vortrag</li>
+                  <li>Startup</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img src="./images/presentation.jpg" alt="Präsentationsaufbau" />
+              <figcaption>
+                <h3>Wie bleibt mein Pitch in positiver Erinnerung?</h3>
+                <address>Monika Engelen</address>
+                <ul class="tag-list">
+                  <li>Präsentation</li>
+                  <li>Flexen</li>
+                  <li>Vortrag</li>
+                  <li>Pitch</li>
+                  <li>Startup</li>
+                  <li>Business</li>
+                  <li>Elevator</li>
+                  <li>Rethorik</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img
+                src="./images/th-koln-header.jpg"
+                alt="Priorisierung eines Backlogs"
+              />
+              <figcaption>
+                <h3>Wie priorisiere ich (ein Backlog)?</h3>
+                <address>Raphaela Groten</address>
+                <ul class="tag-list">
+                  <li>Scrum</li>
+                  <li>Backlog</li>
+                  <li>ProductOwner</li>
+                  <li>Prioritäten</li>
+                  <li>Ziele</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img
+                src="./images/lernen-organisieren.jpg"
+                alt="Organisation des Lernens"
+              />
+              <figcaption>
+                <h3>Wie organisiere ich mein Lernen effektiv?</h3>
+                <address>Monika Engelen</address>
+                <ul class="tag-list">
+                  <li>Lernen</li>
+                  <li>Selbstoptimierung</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+
+          <li>
+            <figure>
+              <img
+                src="./images/team-kommunikation.jpg"
+                alt="Effektive Teamkommunikation"
+              />
+              <figcaption>
+                <h3>Wie fördere ich effektive Kommunikation im Team?</h3>
+                <address>Monika Engelen</address>
+                <ul class="tag-list">
+                  <li>Überzeugen</li>
+                  <li>Pitch</li>
+                  <li>Vortrag</li>
+                  <li>Startup</li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <h2>Barrierefreiheit</h2>
+      <ul>
+        <li>leichte Sprache</li>
+        <li>Kontrast</li>
+      </ul>
+
+      <h2>Rechtliche Informationen</h2>
+      <ul>
+        <li>Verantwortliche</li>
+        <li>Impressum</li>
+        <li>Datenschutzhinweise</li>
+      </ul>
+
+      <h2>Feedback</h2>
+      <ul>
+        <li>Verbesserungsvorschläge</li>
+        <li>Content Vorschläge</li>
+        <li>Feedback Umfrage</li>
+      </ul>
+    </footer>
+  </body>
+</html>

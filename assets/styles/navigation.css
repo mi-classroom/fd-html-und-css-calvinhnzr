@@ -1,0 +1,80 @@
+/* Main Navigation
+############################################################################ */
+
+.main-navigation{
+  display: flex;
+  align-items: center;
+  gap: var(--m);
+
+  .logo{
+    display: block;
+    flex-grow: 2;
+
+    img{
+      height: 50px;
+    }
+    
+  }
+
+  @media only screen and (width >= 50rem) {
+    & > * {
+      flex-grow: 1;
+    
+    }
+  }
+}
+
+.main-menu-trigger{
+  border: none;
+  margin-right: var(--xs);
+  background-color: var(--color-white);
+  color: var(--color-white);
+  cursor: pointer;
+
+  span{
+    display: block;
+    width: var(--xl);
+    height: var(--eighth);
+    margin-bottom: var(--quarter);
+    background-color: var(--color-darkest);
+  }
+
+  @media only screen and (width >= 600px) {
+    display: none;
+  }
+}
+
+/* Main Menü
+############################################################################ */
+
+.main-menu{
+  display: none;
+  gap: var(--l);
+
+  @media only screen and (width >= 600px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+
+/* Lang Selector
+############################################################################ */
+
+.lang-selector{
+  li{
+    &[data-selected="true"]{
+      display: block;
+    }
+
+    &:not([data-selected="true"]){
+      display: none;
+    }
+  }
+
+  &::after{
+    content: "expand_more"
+  }
+
+}

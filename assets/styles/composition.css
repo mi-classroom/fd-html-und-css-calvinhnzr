@@ -1,0 +1,11 @@
+main, .main-footer{
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+
+.main-header{
+  & > * {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+  }
+}

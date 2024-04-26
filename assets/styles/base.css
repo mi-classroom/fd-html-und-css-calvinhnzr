@@ -1,0 +1,32 @@
+html, body{
+  background-color: var(--color-grey);
+  font-family: var(--ff-primary);
+  font-size: var(--m);
+  hyphens: auto;
+  line-height: var(--lh-normal);
+}
+
+main{
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+main > * {
+  padding: var(--m);
+}
+
+h1, h2, h3, h4{
+  padding-top: var(--m);
+  margin-bottom: var(--m);
+  font-weight: var(--fw-bold);
+  hyphens: none;
+}
+
+h2{
+  font-size: var(--l);
+}
+
+p{
+  margin-bottom: var(--s);
+}
+
