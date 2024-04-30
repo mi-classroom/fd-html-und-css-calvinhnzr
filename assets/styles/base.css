@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
   background-color: var(--color-grey);
   font-family: var(--ff-primary);
   font-size: var(--m);
@@ -6,7 +7,7 @@ html, body{
   line-height: var(--lh-normal);
 }
 
-main{
+main {
   max-width: 80rem;
   margin: 0 auto;
 }
@@ -15,18 +16,20 @@ main > * {
   padding: var(--m);
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   padding-top: var(--m);
   margin-bottom: var(--m);
   font-weight: var(--fw-bold);
   hyphens: none;
 }
 
-h2{
+h2 {
   font-size: var(--l);
 }
 
-p{
+p {
   margin-bottom: var(--s);
 }
-

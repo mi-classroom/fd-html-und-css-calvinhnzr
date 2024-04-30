@@ -1,7 +1,7 @@
-.is-hidden{
+.is-hidden {
   display: none !important;
 }
 
-.is-inline > *{
+.is-inline > * {
   display: inline-block;
 }

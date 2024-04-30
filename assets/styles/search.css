@@ -1,58 +1,55 @@
 .keyword-search {
   display: flex;
 
-  &:has(input:focus, input:focus-visible, input:focus-within){
+  &:has(input:focus, input:focus-visible, input:focus-within) {
     outline: solid 1px var(--color-th-orange);
   }
 
-  input{
+  input {
     flex-grow: 2;
     padding: var(--half) var(--xs);
     border: none;
-    
-    &:focus, &:focus-visible, &:focus-within{
+
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
       border: none;
       outline: none;
     }
   }
 
-  button{
+  button {
     padding: var(--s);
     border: none;
     background-color: var(--color-white);
     color: var(--color-white);
     cursor: pointer;
 
-    .icon{
+    .icon {
       margin-right: 0;
       color: var(--color-darkest);
     }
   }
 
-  &.for-large-viewports{
+  &.for-large-viewports {
     display: none;
   }
 
-  @media screen and (width >= 40em){
-    &.for-large-viewports{
+  @media screen and (width >= 40em) {
+    &.for-large-viewports {
       display: block;
 
-      input{
-        background-color: var(--color-grey-dark);;
+      input {
+        background-color: var(--color-grey-dark);
       }
 
-      button{
+      button {
         background-color: var(--color-th-orange);
       }
-      
     }
 
-    &.for-small-viewports{
+    &.for-small-viewports {
       display: none;
     }
   }
-
-
-
 }
-

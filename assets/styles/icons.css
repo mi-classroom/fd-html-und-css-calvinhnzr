@@ -67,8 +67,12 @@
   line-height: var(--xl);
 }
 
-.icon.md-dark { color: var(--lightest); }
-.icon.md-light { color: var(--darkest); }
+.icon.md-dark {
+  color: var(--lightest);
+}
+.icon.md-light {
+  color: var(--darkest);
+}
 
 .icon--inline {
   margin-right: var(--xs);
@@ -79,6 +83,12 @@
   content: attr(data-icon);
 }
 
-.icon--video::before { content: "smart_display"; }
-.icon--document::before { content: "description"; }
-.icon--folder::before { content: "folder"; }
+.icon--video::before {
+  content: "smart_display";
+}
+.icon--document::before {
+  content: "description";
+}
+.icon--folder::before {
+  content: "folder";
+}
