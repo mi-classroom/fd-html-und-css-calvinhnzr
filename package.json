@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "lint": "stylelint assets/styles/**/*.css",
-    "lint:fix": "stylelint assets/styles/**/*.css --fix"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "prettier": "3.2.5",
