@@ -35,7 +35,7 @@ async function renderData() {
   }
 
   data.articles.forEach((item) => {
-    container.innerHTML += template(item)
+    !item.draft ? (container.innerHTML += template(item)) : null
   })
 }
 
