@@ -35,7 +35,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/finanzen-moeglichkeiten.jpg",
       "description": "Eine Übersicht über verschiedene Finanzierungsquellen für Startups, einschließlich Eigenkapital, Fremdkapital, Crowdfunding, Venture Capital und staatliche Förderprogramme.",
       "content": ""
     },
@@ -58,7 +58,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/business-idea.jpg",
       "description": "Methoden und Ansätze zur Bewertung und Validierung einer Geschäftsidee, um deren Marktchancen, Kundenbedürfnisse und Rentabilität zu prüfen, bevor man ein Startup gründet.",
       "content": ""
     },
@@ -85,7 +85,7 @@
         "modules": ["Sressmanagement"],
         "fileFormat": ["mp4"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/stressed.jpg",
       "description": "Strategien und Techniken zur Bewältigung von Stress, einschließlich Zeitmanagement, Entspannungsübungen, Priorisierung von Aufgaben und Kommunikationstechniken.",
       "content": ""
     },
@@ -110,9 +110,9 @@
           "Motivation"
         ],
         "modules": ["Betriebswirtschaftslehre"],
-        "fileFormat": [""]
+        "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/team-kommunikation.jpg",
       "description": "Eine Untersuchung verschiedener Techniken und Ansätze, um die Zusammenarbeit und Effizienz in einem Team zu verbessern, wie z.B. agile Methoden, regelmäßige Feedback-Sitzungen und klare Kommunikationskanäle.",
       "content": ""
     },
@@ -138,7 +138,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["mp4"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/team-arbeit.jpg",
       "description": "Tipps und Best Practices für eine effektive Zusammenarbeit in einem Team, einschließlich klarer Rollenverteilung, offener Kommunikation und konstruktivem Feedback.",
       "content": ""
     },
@@ -158,7 +158,7 @@
         ],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/praesentation-aufbau.jpg",
       "description": "Eine Anleitung zum strukturierten Aufbau einer Präsentation, einschließlich der Festlegung von Zielen, Auswahl relevanter Inhalte, Gestaltung von Visuals und Präsentationstechniken.",
       "content": ""
     },
@@ -184,7 +184,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/agenda.jpg",
       "description": "Schritte und Richtlinien zur Erstellung einer effektiven Agenda für Meetings oder Veranstaltungen, einschließlich der Festlegung von Zielen, Priorisierung von Themen und Zeitplanung.",
       "content": ""
     },
@@ -206,7 +206,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/nerds-with-computers.jpg",
       "description": "Strategien und Praktiken zur Förderung einer offenen, klaren und effektiven Kommunikation innerhalb eines Teams, einschließlich regelmäßiger Meetings, klarer Kommunikationskanäle und Konfliktlösungstechniken.",
       "content": ""
     },
@@ -228,7 +228,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["mp4"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/presentation.jpg",
       "description": "Tipps und Best Practices zur Vorbereitung und Durchführung eines überzeugenden Pitches, einschließlich der Strukturierung des Inhalts, Präsentationstechniken und der Beantwortung von Fragen.",
       "content": "/videos/pitch-basics.mp4"
     },
@@ -250,7 +250,7 @@
         "modules": ["Projektmanagement", "Entwicklungsprojekt"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/lernen-organisieren.jpg",
       "description": "Methoden und Werkzeuge zur effektiven Organisation und Planung des Lernprozesses, einschließlich Zeitmanagement, Auswahl von Lernmaterialien und Nutzung von Lernstrategien.",
       "content": ""
     },
@@ -272,7 +272,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/girls-in-front.jpg",
       "description": "Techniken und Ansätze zur Priorisierung von Aufgaben und Projekten in einem Backlog, um die Effizienz und den Nutzen zu maximieren.",
       "content": ""
     },
@@ -294,7 +294,7 @@
         "modules": ["Projektmanagement"],
         "fileFormat": ["pdf"]
       },
-      "teaserImg": "/images/teaser.jpg",
+      "teaserImg": "/images/pitch-strukturieren.jpg",
       "description": "Schritte und Richtlinien zur strukturierten Gestaltung eines Pitches, einschließlich der Festlegung von Zielen, Auswahl relevanter Inhalte, Aufbau einer überzeugenden Geschichte und Präsentationstechniken.",
       "content": ""
     }
