@@ -1,4 +1,4 @@
-export const cardTemplate = (data) => `
+export const CardTemplate = (data) => `
   <li>
     <figure>
       <img src="./assets/images/${data.teaserImg}" alt="${data.title}" />
@@ -13,7 +13,7 @@ export const cardTemplate = (data) => `
   </li>
 `
 
-export const filterButtonTemplate = (data) => `
+export const TilterButtonTemplate = (data) => `
   <li>
     <button class="button button-primary" data-js-filter="">${data}</button>
   </li>
