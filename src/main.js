@@ -3,7 +3,7 @@ const PORT = "4173"
 const localUrl = `${HOST}:${PORT}/db.json`
 
 const url =
-  "https://gist.githubusercontent.com/vschaefer/8d26be957bbc8607f60da5dd1b251a78/raw/fdc08f90b3686cc96fec7c62b40e2fe94b7eb6aa/articles.js"
+  "https://gist.githubusercontent.com/vschaefer/8d26be957bbc8607f60da5dd1b251a78/raw/38c62965139a156d4a605be1e046ad8278235fff/articles.json"
 
 async function fetchData() {
   try {
@@ -18,7 +18,7 @@ async function fetchData() {
 const template = (data) => `
   <li>
     <figure>
-      <img src="${data.teaserImg}" alt="${data.title}" />
+      <img src="images/${data.teaserImg}" alt="${data.title}" />
       <figcaption>
         <h3>${data.title}</h3>
         <address>${data.author}</address>
