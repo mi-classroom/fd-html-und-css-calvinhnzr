@@ -18,7 +18,7 @@ async function fetchData() {
 const template = (data) => `
   <li>
     <figure>
-      <img src="images/${data.teaserImg}" alt="${data.title}" />
+      <img src="./assets/images/${data.teaserImg}" alt="${data.title}" />
       <figcaption>
         <h3>${data.title}</h3>
         <address>${data.author}</address>
