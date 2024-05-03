@@ -32,19 +32,23 @@ function renderCards(data) {
 }
 
 function renderTags(data) {
-  // render keywords
-  const keywordsContainer = document.querySelector(
-    "[data-js-category='keywords']"
-  )
+  const allTagContainer = document.querySelectorAll("[data-js-category]")
 
-  const keywords = data.articles
-    .map((item) => item.tags.keywords)
-    .flat()
-    .filter((item, index, self) => self.indexOf(item) === index) // remove duplicates
-
-  keywords.map((item) => {
-    keywordsContainer.innerHTML += FilterButtonTemplate(item)
+  allTagContainer.forEach((item) => {
+    arrFlattenNoDuplicates(item.dataset.jsCategory)
   })
+
+  function arrFlattenNoDuplicates(jsCategory) {
+    data.articles
+      .map((item) => item.tags[jsCategory])
+      .flat()
+      .filter((item, index, self) => self.indexOf(item) === index) // remove duplicates
+      .map((item) => {
+        document.querySelector(
+          `[data-js-category='${jsCategory}']`
+        ).innerHTML += FilterButtonTemplate(item)
+      })
+  }
 }
 
 renderData()
