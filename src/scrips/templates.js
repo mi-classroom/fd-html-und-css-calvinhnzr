@@ -13,7 +13,7 @@ export const CardTemplate = (data) => `
   </li>
 `
 
-export const TilterButtonTemplate = (data) => `
+export const FilterButtonTemplate = (data) => `
   <li>
     <button class="button button-primary" data-js-filter="">${data}</button>
   </li>
